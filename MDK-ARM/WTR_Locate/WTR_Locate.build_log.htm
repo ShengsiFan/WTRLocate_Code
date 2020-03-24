@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¶ÃVision V5.20.0.0
+Copyright (C) 2016 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: fan 949250747@qq.com, hit, LIC=65IQD-8SVNP-PBSEG-VQ7EY-TB5KH-DUE85
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.20
+Toolchain Path:  D:\keil5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 2 (build 183)
+Assembler:       Armasm.exe V5.06 update 2 (build 183)
+Linker/Locator:  ArmLink.exe V5.06 update 2 (build 183)
+Library Manager: ArmAr.exe V5.06 update 2 (build 183)
+Hex Converter:   FromElf.exe V5.06 update 2 (build 183)
+CPU DLL:         SARMCM3.DLL V5.20
+Dialog DLL:      DCM.DLL V1.13.7.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.9.0
+ 
+<h2>Project:</h2>
+C:\Users\94925\Desktop\WTR_Locate\MDK-ARM\WTR_Locate.uvprojx
+Project File Date:  03/16/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 2 (build 183)', folder: 'D:\keil5\ARM\ARMCC\Bin'
+Build target 'WTR_Locate'
+compiling Calculate.c...
+compiling CanOperation.c...
+..\Src\CanOperation.c(45): warning:  #550-D: variable "TxHeader" was set but never used
+  	CAN_TxHeaderTypeDef TxHeader;   //ÂÆ?‰π?Âè?ÈÄ?Áª?Êû?‰Ω?Âè?Èá?
+..\Src\CanOperation.c(46): warning:  #550-D: variable "ReportData" was set but never used
+  	uint8_t ReportData[4];
+..\Src\CanOperation.c: 2 warnings, 0 errors
+compiling InitAll.c...
+compiling main.c...
+linking...
+Program Size: Code=7568 RO-data=440 RW-data=20 ZI-data=1284  
+FromELF: creating hex file...
+"WTR_Locate\WTR_Locate.axf" - 0 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.5.0.pack
+                ARM::CMSIS:CORE:4.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.3.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\94925\Desktop\WTR_Locate\MDK-ARM\RTE
+  D:\keil5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+  D:\keil5\ARM\PACK\Keil\STM32F4xx_DFP\2.3.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.3.0
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
